@@ -1,0 +1,19 @@
+
+
+<div class="row">
+  <div class="col-sm-6 col-sm-offset-3 form-box" id="form">
+    <div class="form-top">
+      <div class="form-top-left text-center">
+        <h3>Choose your nickname:</h3>
+      </div>
+    </div>
+    <div class="form-bottom text-center" >
+
+        <div class="form-group text-center">
+          <input [(ngModel)]= "username" type="text" name="form-username" placeholder="Nickname..." class="form-username form-control" id="form-username">
+        </div>
+        <button (click)="connect()" routerLink="/messages" class="btn btn-lg btn-success">Sign in!</button>
+
+    </div>
+  </div>
+</div>

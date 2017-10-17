@@ -1,0 +1,30 @@
+#messageArea {
+  border:1px solid black;
+  padding: 20px;
+  height: 350px;
+  overflow: auto;
+  background-color: #e2e2e2;
+  border-radius: 10%;
+}
+
+
+ul {
+  list-style-type: none;
+}
+#messageTextarea {
+  margin-top: 5px;
+  border-radius: 5%;
+}
+.message {
+  background-color: #2b669a;
+  color: #e2e2e2;
+  padding: 7px;
+  border-radius: 40%;
+  max-width: 50px;
+}
+.messageReceived {
+  background-color: #4aaf51;
+  color: #e2e2e2;
+  padding: 7px;
+  border-radius: 30%;
+}

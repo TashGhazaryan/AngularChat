@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4">
+    <div id="messageArea" >
+
+        <div *ngFor="let message of receivedMessage" style="margin-top: 10px;">
+          <div *ngIf="message.senderNickname == me" class="text-right">
+
+            <span class="message">{{message.message}}</span>
+          </div>
+
+          <div *ngIf="message.senderNickname != me" class="text-left">
+            <span class="messageReceived" >
+              <b><i>{{message.senderNickname}}::</i></b>{{message.message}}
+            </span>
+          </div>
+        </div>
+
+
+    </div>
+    <textarea [(ngModel)]= "sentMessage" class="form-control" id="messageTextarea" rows="3"></textarea>
+    <span>
+      <button (click)="sendMessage()" routerLink="/messages" class="btn btn-lg btn-dark">Send</button>
+    </span>
+  </div>
+  <div class="col-md-4"></div>
+</div>
+
+

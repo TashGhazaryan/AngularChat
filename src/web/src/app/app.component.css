@@ -1,0 +1,17 @@
+#main {
+  background-color: #9d9d9d;
+}
+
+#mainArea {
+  height: 660px;
+  background-image: url("http://static3.bigstockphoto.com/thumbs/0/4/1/large1500/140698202.jpg");
+
+
+}
+
+#heading {
+  color: #d39e00;
+  font-size: 50px;
+  font-family: "Times New Roman", Georgia, Serif;
+  font-weight: bolder;
+}
